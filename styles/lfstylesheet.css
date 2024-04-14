@@ -1,0 +1,91 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+input[type="text"], input[type="email"],input[type="integer"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label {
+    font-weight: bold;
+}
+/* Style for custom checkboxes */
+.checkbox-container {
+    margin-bottom: 10px;
+}
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+.custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+nav {
+	background-color: #444;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 10px;
+	border-right: 1px solid #fff;
+}
+body {
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
