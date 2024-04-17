@@ -75,3 +75,32 @@ img {
 	padding-bottom: 0px;
 	border-top: 1px solid #ccc;;
 }
+
+.icon {
+	width: 30px;
+	height: 30px;
+	
+}
+
+#socials{
+	list-style-type: none;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+#socials img {
+	margin: 20px;
+	
+}
+
+#socials li {
+	text-align: center;
+}
+
+#contactBody{
+	margin: 20px;
+}
