@@ -1,6 +1,7 @@
 form {
     max-width: 600px;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 input[type="text"], input[type="email"],input[type="integer"], textarea {
     width: 100%;
